@@ -1,0 +1,146 @@
+.root{
+    --font-family: Arial, Helvetica, sans-serif;
+}
+.hero{
+    background-color:#f9f7fe ;
+}
+
+h1{
+    font-family: var(--font-family);
+}
+
+h2{
+    font-family: var(--font-family);
+    font-size: 80px;
+    color: #6c63ff;
+}
+
+h3{
+    font-family: var(--font-family);
+
+}
+
+
+.button{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.contact-me{
+border: 1px solid #6c63ff ;
+border-radius: 10px;
+text-decoration: none;
+padding: 20px;
+background-color: #6c63ff;
+color: whitesmoke;
+font-family: var(--font-family);
+}
+
+.about-me{
+border: 1px solid #6c63ff ;
+border-radius: 10px;
+text-decoration: none;
+padding: 20px;
+background-color:whitesmoke;
+color:  #6c63ff;
+font-family: var(--font-family);
+position: relative;
+
+}
+
+
+.img-travel{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+    border-radius: 20px;
+}
+.Travel{
+    margin-top: 2.5rem;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 48px;
+  
+}
+.p{
+    margin-top: 2.5rem;
+    font-family: var(--font-family);
+    line-height: 1.5;
+    font-size: 15px;
+ 
+   
+   
+}
+.Primary-link{
+border: 1px solid #6c63ff ;
+border-radius: 10px;
+text-decoration: none;
+padding: 20px;
+background-color: #6c63ff;
+color: whitesmoke;
+font-family: var(--font-family);
+position: relative;
+}
+.weather{
+    margin-top: 2.5rem;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 48px; 
+}
+.img-weather{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+    border-radius: 20px;
+
+}
+.about-section-content h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    color:black ;
+    font-weight: 500;
+}
+.img-fluid-2{
+    max-width: 100%;
+    display: flex;
+    margin-left: 4.5rem;
+}
+@media(max-width: 900px){
+    .about-section{
+        text-align: center;
+        padding: 0;}
+
+        .img-fluid-3{
+            margin-left: 0;
+        }
+    }
+
+.img-fluid-2{
+    margin-left: 0;
+}
+
+.about-section{
+padding: 16px 20px  ;
+}
+.content h1{
+    font-family:var(--font-family) ;
+    font-weight: 20px;
+    font-size: 64px;
+    line-height: 80px;
+    margin-top:100px;
+    text-align: center;
+
+}
+.mb-5{
+   margin-bottom: 3rem!important; 
+
+}
+.img-fluid-3{
+    max-width: 100%;
+    display: flex;
+    margin-left: 170px;
+
+}
